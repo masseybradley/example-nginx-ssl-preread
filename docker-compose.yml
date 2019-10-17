@@ -17,6 +17,8 @@ services:
     - 'CHOWN'
     expose:
     - '22'
+    entrypoint: ['/usr/sbin/sshd']
+    command: ['-ddd']
   nginx:
     image: 'nginx:1.17.3'
     restart: 'always'
