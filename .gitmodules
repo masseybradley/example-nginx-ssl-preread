@@ -1,0 +1,6 @@
+[submodule "openssh-server"]
+	path = openssh-server
+	url = git@github.com:masseybradley/openssh-server.git
+[submodule "openssh-client"]
+	path = openssh-client
+	url = git@github.com:masseybradley/openssh-client.git
